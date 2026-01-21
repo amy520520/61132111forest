@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner .box {
+  width: 100%;
+  height: 500px;
+  background-image: url("https://picsum.photos/id/684/1920/500");
+  background-size: cover; /* 關鍵 */
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .box h1 {
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 5px 5px 10px rgba(24, 22, 22, 0.5);
+}
+
+.navbar{
+  padding: 0rem;
+}
+
+/* 台灣林業說明part1 */
+.part1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.part1text {
+  width: 1000px;
+}
+.part1 h2 {
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
+  text-align: center;
+  color: #1b310d;
+  font-weight: 800;
+}
+.part1 p {
+  font-size: 20px;
+}
+
+/* 國產木材介紹part2 */
+.part2 {
+  background-color: #569a2b;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.part2-2 {
+  display: flex;
+  flex-direction: column; /* 上下排列 */
+  align-items: center; /* 置中 */
+  gap: 35px; /* 上下間距 */
+}
+.part2 h2 {
+  width: fit-content; /* 讓寬度隨文字長度 */
+  margin: 0 auto; /* 置中 */
+  background-color: #1b310d;
+  color: #fff;
+  border-radius: 50px;
+  padding: 0.3em 1em;
+}
+.allcard {
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+.allcard .card {
+  height: 350px;
+}
+.allcard .card h5 {
+  text-align: center;
+}
+
+/* 影片介紹part3 */
+.part3{
+  width: 1000px;
+  padding: 50px;
+  
+}
+.part3-1{
+  display: flex;
+  justify-content: space-between;
+
+}
+.part3-1 .card{
+  width: 400px;
+  height: 100px;
+}
