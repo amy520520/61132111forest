@@ -80,17 +80,13 @@
 }
 
 /* 影片介紹part3 */
-.part3{
-  width: 1000px;
-  padding: 50px;
-  
+.video-box{
+  width:80%;
 }
-.part3-1{
-  display: flex;
-  justify-content: space-between;
 
+@media (max-width:768px){
+  .video-box{
+    width:100%;
+  }
 }
-.part3-1 .card{
-  width: 400px;
-  height: 100px;
-}
+
