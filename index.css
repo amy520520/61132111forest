@@ -42,7 +42,7 @@ header h5{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding: 50px;
 }
 
 .part1text {
@@ -93,7 +93,11 @@ header h5{
   text-align: center;
 }
 
-/* 影片介紹part3 */
+/* 影片介紹*/
+.part3{
+  padding:50px;
+}
+
 .FSC{
   color:#569a2b;
 }
@@ -126,7 +130,7 @@ a{
 }
 
 /* 綠色消費者的角色 */
-.part3 {
+.part4{
   background-color: #569a2b;
   background-image: url(image/BG.png);
   padding: 50px;
@@ -142,7 +146,7 @@ a{
   }
 }
 
-.part3 h2 {
+.part4 h2 {
   width: fit-content; /* 讓寬度隨文字長度 */
   margin: 0 auto; /* 置中 */
   background-color: #1b310d;

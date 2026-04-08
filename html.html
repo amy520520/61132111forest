@@ -17,7 +17,7 @@
       <header>
         <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
           <div class="container">
-            <a class="navbar-brand" href="#section-1">
+            <a class="navbar-brand" href="">
               <img
                 src="image/logo.png"
                 alt="Logo"
@@ -25,7 +25,9 @@
                 class="d-inline-block align-text-top"
               />
             </a>
-            <h5>木育好森活</h5>
+            <a href="">
+              <h5>木育好森活</h5>
+            </a>
             <button
               class="navbar-toggler"
               type="button"
@@ -40,33 +42,32 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#section-2">林業現況</a>
+                  <a class="nav-link" href="#section-1">林業現況</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#section-4">認識本土木材</a>
+                  <a class="nav-link" href="#section-2">認識本土木材</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#section-6">FSC認證</a>
+                  <a class="nav-link" href="#section-3">FSC認證</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#section-8">綠色消費者</a>
+                  <a class="nav-link" href="#section-4">綠色消費者</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#section-8">聯繫我們</a>
+                  <a class="nav-link" href="#section-5">聯繫我們</a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
       </header>
-
       <section class="banner">
         <div class="box">
           <!-- <h1>木育好森活</h1> -->
         </div>
       </section>
       <!-- 台灣林業說明part1 -->
-      <section class="part1 container">
+      <section class="part1 container" id="section-1">
         <div class="part1text">
           <h2>台灣林業的真相：我們用的木頭，幾乎都不是來自台灣</h2>
           <p>
@@ -78,18 +79,14 @@
         </div>
       </section>
       <!-- 國產木材介紹part2 -->
-      <section class="part2">
+      <section class="part2" id="section-2">
         <div class="part2-2 container">
           <h2>國產木材介紹</h2>
           <div class="allcard">
             <div class="row row-cols-1 row-cols-md-4 g-4">
               <div class="col">
                 <div class="card">
-                  <img
-                    src="image/tree-01.png"
-                    class="card-img-top"
-                    alt="..."
-                  />
+                  <img src="image/tree-01.png" class="card-img-top" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title">相思木</h5>
                     <p class="card-text">
@@ -101,11 +98,7 @@
               </div>
               <div class="col">
                 <div class="card">
-                  <img
-                    src="image/tree-02.png"
-                    class="card-img-top"
-                    alt=""
-                  />
+                  <img src="image/tree-02.png" class="card-img-top" alt="" />
                   <div class="card-body">
                     <h5 class="card-title">樟樹</h5>
                     <p class="card-text">
@@ -117,11 +110,7 @@
               </div>
               <div class="col">
                 <div class="card">
-                  <img
-                    src="image/tree-03.png"
-                    class="card-img-top"
-                    alt="..."
-                  />
+                  <img src="image/tree-03.png" class="card-img-top" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title">楠木</h5>
                     <p class="card-text">
@@ -132,11 +121,7 @@
               </div>
               <div class="col">
                 <div class="card">
-                  <img
-                    src="image/tree-04.png"
-                    class="card-img-top"
-                    alt="..."
-                  />
+                  <img src="image/tree-04.png" class="card-img-top" alt="..." />
                   <div class="card-body">
                     <h5 class="card-title">香杉</h5>
                     <p class="card-text">
@@ -152,34 +137,40 @@
       </section>
 
       <!-- 影片介紹含RWD -->
-      <section class="container my-5">
+      <section class="my-5 container part3" id="section-3">
         <!-- 文字 + 卡片 -->
-        <div class="row align-items-center mb-5 videotext">
-          <!-- 左文字 -->
-          <div class="col-12 col-md-5 text-center text-md-start mb-3 mb-md-0">
-            <h2 class="fw-bold">什麼是 FSC 認證？</h2>
-            <p class="text-muted">
-              了解 FSC 小樹標章的意義，以及如何辨識與選購 FSC 認證產品，
-              讓森林資源能夠被永續管理與使用。
-            </p>
-          </div>
+        <div class="">
+          <div class="row align-items-center mb-5 videotext">
+            <!-- 左文字 -->
+            <div class="col-12 col-md-5 text-center text-md-start mb-3 mb-md-0">
+              <h2 class="fw-bold">什麼是 FSC 認證？</h2>
+              <p class="text-muted">
+                了解 FSC 小樹標章的意義，以及如何辨識與選購 FSC 認證產品，
+                讓森林資源能夠被永續管理與使用。
+              </p>
+            </div>
 
-          <!-- 右卡片 -->
-          <div class="col-12 col-md-7">
-            <div class="card shadow-sm" style="max-width:auto">
-              <div class="row g-0">
-                <div class="col-4  p-0">
-                  <img src="image/FSC.png" class="card-img img-fluid rounded-start" alt="" />
-                </div>
-                <div class="col-8">
-                  <div class="card-body">
-                    <a href="https://fsc.org/en">
-                      <h5 class="card-title FSC">FSC 小樹標章(前往網站)</h5>
-                    </a>
-                    <p class="card-text">
-                      FSC 認證代表產品來自負責任管理的森林，
-                      在環境、社會與經濟三方面都符合永續標準。
-                    </p>
+            <!-- 右卡片 -->
+            <div class="col-12 col-md-7">
+              <div class="card shadow-sm" style="max-width: auto">
+                <div class="row g-0">
+                  <div class="col-4 p-0">
+                    <img
+                      src="image/FSC.png"
+                      class="card-img img-fluid rounded-start"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-8">
+                    <div class="card-body">
+                      <a href="https://fsc.org/en">
+                        <h5 class="card-title FSC">FSC 小樹標章(前往網站)</h5>
+                      </a>
+                      <p class="card-text">
+                        FSC 認證代表產品來自負責任管理的森林，
+                        在環境、社會與經濟三方面都符合永續標準。
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -200,12 +191,12 @@
         </div>
       </section>
       <!-- 綠色消費者角色 -->
-      <section class="part3">
+      <section class="part4" id="section-4">
         <h2>綠色消費者角色</h2>
         <div class="container">
           <div class="row g-4 allcard-2">
             <div class="col-12 col-md-6">
-              <div class="card h-0 ">
+              <div class="card h-0">
                 <div class="row g-0 -1">
                   <div class="col-3">
                     <img
@@ -297,7 +288,7 @@
       </section>
 
       <!-- 聯繫我們 -->
-      <section class="container my-5">
+      <section class="container my-5" id="section-5">
         <div class="row align-items-center mb-2 allcard-2">
           <!-- 左文字 -->
           <div class="col-12 col-md-5 text-center text-md-start mb-3 mb-md-0">
@@ -335,7 +326,9 @@
       </section>
       <!-- 頁尾 -->
       <div class="bg">
-        <div class="text">版權所有 © 2026 木育好森活 夜設四A  61132111 林卓諵</div>
+        <div class="text">
+          版權所有 © 2026 木育好森活 夜設四A 61132111 林卓諵
+        </div>
       </div>
     </div>
 
