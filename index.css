@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family:Microsoft JhengHei; 
+  /* font-family:DFKai-sb; 標楷體 */
+}
 .banner .box {
   width: 100%;
   height: 500px;
@@ -21,15 +25,16 @@
   }
 }
 
-
-/* .banner .box h1 {
-  font-size: 50px;
-  color: #fff;
-  text-shadow: 5px 5px 10px rgba(24, 22, 22, 0.5);
-} */
-
 .navbar{
   padding: 0rem;
+}
+
+.nav-link{
+  color: #569a2b;
+}
+header h5{
+  color: #1b310d;
+  font-weight:bolder;
 }
 
 /* 台灣林業說明part1 */
@@ -41,10 +46,10 @@
 }
 
 .part1text {
-  width: 1000px;
+  width: 800px;
+  line-height: 40px
 }
 .part1 h2 {
-  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; */
   text-align: center;
   color: #1b310d;
   font-weight: 800;
@@ -76,6 +81,10 @@
   padding: 0.3em 1em;
 }
 
+.card-title{
+  font-weight:bolder
+}
+
 
 .allcard .card {
   height: 350px;
@@ -85,6 +94,27 @@
 }
 
 /* 影片介紹part3 */
+.FSC{
+  color:#569a2b;
+}
+a{
+  text-decoration: none;
+}
+.card-img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.fw-bold{
+  color: #1b310d;
+}
+
+.videotext{
+  width: 80%;
+  margin: 0 auto;
+}
+
 .video-box{
   width:80%;
 }
@@ -103,8 +133,15 @@
 }
 
 .allcard-2{
- margin: 50px 0;
+ width: 80%; 
+ margin: 50px auto;
 }
+@media (max-width:768px){
+  .allcard-2{
+    width:100%;
+  }
+}
+
 .part3 h2 {
   width: fit-content; /* 讓寬度隨文字長度 */
   margin: 0 auto; /* 置中 */
