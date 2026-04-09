@@ -3,8 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  font-family:Microsoft JhengHei; 
+body {
+  font-family: Microsoft JhengHei;
   /* font-family:DFKai-sb; 標楷體 */
 }
 .banner .box {
@@ -18,23 +18,23 @@ body{
   justify-content: center;
   align-items: center;
 }
-@media (max-width:768px){
-  .banner .box{
-    width:100%;
+@media (max-width: 768px) {
+  .banner .box {
+    width: 100%;
     height: 300px;
   }
 }
 
-.navbar{
+.navbar {
   padding: 0rem;
 }
 
-.nav-link{
+.nav-link {
   color: #569a2b;
 }
-header h5{
-  color: #265D4B;
-  font-weight:bolder;
+header h5 {
+  color: #265d4b;
+  font-weight: bolder;
 }
 
 /* 台灣林業說明part1 */
@@ -47,11 +47,11 @@ header h5{
 
 .part1text {
   width: 800px;
-  line-height: 40px
+  line-height: 40px;
 }
 .part1 h2 {
   text-align: center;
-  color: #265D4B;
+  color: #265d4b;
   font-weight: 800;
 }
 .part1 p {
@@ -60,7 +60,7 @@ header h5{
 
 /* 國產木材介紹part2 */
 .part2 {
-  background-color: #8FC96B;
+  background-color: #8fc96b;
   padding: 50px;
   display: flex;
   justify-content: center;
@@ -75,16 +75,16 @@ header h5{
 .part2 h2 {
   width: fit-content; /* 讓寬度隨文字長度 */
   margin: 0 auto; /* 置中 */
-  background-color: #265D4B;
+  background-color: #265d4b;
   color: #fff;
   border-radius: 50px;
   padding: 0.3em 1em;
 }
 
-.card-title{
-  font-weight:bolder
+.card-title {
+  color: rgba(33, 37, 41, 0.75);
+  font-weight: bolder;
 }
-
 
 .allcard .card {
   height: 350px;
@@ -94,80 +94,96 @@ header h5{
 }
 
 /* FSC影片介紹*/
-.part3{
-  padding:50px;
+.part3 {
+  padding: 50px;
 }
 
-.FSC{
-  color:#569a2b;
+.FSC {
+  color: #569a2b;
 }
-a{
+a {
   text-decoration: none;
 }
-.card-img{
-  width:100%;
-  height:100%;
-  object-fit:cover;
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.fw-bold{
-  color: #265D4B;
+.fw-bold {
+  color: #265d4b;
 }
 
-.videotext{
+.text-muted {
+  font-size: large;
+  font-weight: bolder;
+}
+
+.videotext {
   width: 80%;
   margin: 0 auto;
 }
 
-.video-box{
-  width:80%;
+.video-box {
+  width: 80%;
 }
 
-@media (max-width:768px){
-  .video-box{
-    width:100%;
+@media (max-width: 768px) {
+  .videotext {
+    width: 100%;
+    margin: 0 auto;
   }
+
+  .video-box {
+    width: 100%;
+  }
+  .card-img{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+  }
+
 }
 
 /* 綠色消費者的角色 */
-.part4{
+.part4 {
   background-color: #569a2b;
   background-image: url(image/BG.png);
   padding: 50px;
 }
 
-.allcard-2{
- width: 80%; 
- margin: 50px auto;
+.allcard-2 {
+  width: 80%;
+  margin: 50px auto;
 }
-@media (max-width:768px){
-  .allcard-2{
-    width:100%;
+@media (max-width: 768px) {
+  .allcard-2 {
+    width: 100%;
   }
 }
 
 .part4 h2 {
   width: fit-content; /* 讓寬度隨文字長度 */
   margin: 0 auto; /* 置中 */
-  background-color: #97B982;
+  background-color: #97b982;
   color: #fff;
   border-radius: 50px;
   padding: 0.3em 1em;
 }
 /* 聯繫我們 */
-
-
-
-
+.btn-success{
+  --bs-btn-bg: #8FC96B;
+  --bs-btn-border-color:#8FC96B;
+}
 /* 頁首 */
-.bg{
+.bg {
   width: 100%;
-  background-color: #265D4B;
+  background-color: #265d4b;
   height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.text{
-  color:#fff;
+.text {
+  color: #fff;
 }
