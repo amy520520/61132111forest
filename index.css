@@ -33,7 +33,7 @@ body{
   color: #569a2b;
 }
 header h5{
-  color: #1b310d;
+  color: #265D4B;
   font-weight:bolder;
 }
 
@@ -51,7 +51,7 @@ header h5{
 }
 .part1 h2 {
   text-align: center;
-  color: #1b310d;
+  color: #265D4B;
   font-weight: 800;
 }
 .part1 p {
@@ -60,7 +60,7 @@ header h5{
 
 /* 國產木材介紹part2 */
 .part2 {
-  background-color: #569a2b;
+  background-color: #8FC96B;
   padding: 50px;
   display: flex;
   justify-content: center;
@@ -75,7 +75,7 @@ header h5{
 .part2 h2 {
   width: fit-content; /* 讓寬度隨文字長度 */
   margin: 0 auto; /* 置中 */
-  background-color: #1b310d;
+  background-color: #265D4B;
   color: #fff;
   border-radius: 50px;
   padding: 0.3em 1em;
@@ -93,7 +93,7 @@ header h5{
   text-align: center;
 }
 
-/* 影片介紹*/
+/* FSC影片介紹*/
 .part3{
   padding:50px;
 }
@@ -111,7 +111,7 @@ a{
 }
 
 .fw-bold{
-  color: #1b310d;
+  color: #265D4B;
 }
 
 .videotext{
@@ -149,7 +149,7 @@ a{
 .part4 h2 {
   width: fit-content; /* 讓寬度隨文字長度 */
   margin: 0 auto; /* 置中 */
-  background-color: #1b310d;
+  background-color: #97B982;
   color: #fff;
   border-radius: 50px;
   padding: 0.3em 1em;
@@ -162,7 +162,7 @@ a{
 /* 頁首 */
 .bg{
   width: 100%;
-  background-color: #1b310d;
+  background-color: #265D4B;
   height: 100px;
   display: flex;
   justify-content: center;
